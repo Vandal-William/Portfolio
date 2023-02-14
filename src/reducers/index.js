@@ -1,5 +1,8 @@
-const initialState = {
+import { duration } from "@mui/material";
 
+const initialState = {
+  isOver: true,
+  duration: 10000
 };
 
 function reducer(state = initialState, action = {}) {
@@ -11,10 +14,18 @@ function reducer(state = initialState, action = {}) {
         // la notation entre crochet me permet de spécifier
         // via une expression le nom de la propriété cliblée
       };
-    case 'INSTRUCTION':
+
+    case 'MOUSE_OVER':
       return {
-        ...state, // déverse le contenue du state
-        // le ou les state qui change
+        ...state,
+        isOver: action.isOver,
+        duration: action.duration
+      };  
+    case 'MOUSE_OUT':
+      return {
+        ...state, 
+        isOver: action.isOver,
+        duration: action.duration
       };
     default:
       return state;
