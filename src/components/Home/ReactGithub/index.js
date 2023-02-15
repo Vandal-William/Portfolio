@@ -10,12 +10,12 @@ function ReactGithub() {
       
 
     return (
-      <Box className="contactForm">
-        <Box className="contactForm-header">
-          <h1 className="contactForm-title"> Une question ? </h1>
+      <Box className="ReactGithub">
+        <Box className="ReactGithub-header">
+          <h1 className="ReactGithub-title"> React-Repos </h1>
     
         </Box>
-        <Box className="contactForm-content">
+        <Box className="ReactGithub-content">
         
         </Box>
 

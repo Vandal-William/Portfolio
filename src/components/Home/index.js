@@ -169,7 +169,7 @@ function Home() {
                                 into electronic typesetting, remaining essentially unchanged.
                             </Typography>
                             <Box className="content2-action">
-                                <Button component={Link} to="/portfolio" variant="contained" className="content2-btn">Voir le portfolio</Button>
+                                <Button component={Link} to="/todolist" variant="contained" className="content2-btn">Voir le portfolio</Button>
                             </Box>
                         </Box>
                 </Box>
@@ -187,7 +187,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content3-action">
-                            <Button component={Link} to='/contact' variant="contained" className="content3-btn">Me contacter</Button>
+                            <Button component={Link} to='/chatroom' variant="contained" className="content3-btn">Me contacter</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -207,7 +207,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content4-action">
-                            <Button component={Link} sx={{transition: "3s"}} to="/signup" variant="contained" className="content4-btn">S'inscrire</Button>
+                            <Button component={Link} sx={{transition: "3s"}} to="/bot-discord" variant="contained" className="content4-btn">S'inscrire</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -225,7 +225,7 @@ function Home() {
                         into electronic typesetting, remaining essentially unchanged.
                     </Typography>
                     <Box className="content5-action">
-                        <Button component={Link} to="/planning" variant="contained" className="content5-btn">Voir les prochaines sessions</Button>
+                        <Button component={Link} to="/orecipes" variant="contained" className="content5-btn">Voir les prochaines sessions</Button>
                     </Box>
                 </Box>
             </Box>
@@ -244,7 +244,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content6-action">
-                            <Button component={Link} to="/devenirDev" variant="contained" className="content6-btn">Découvrir le métier</Button>
+                            <Button component={Link} to="/github-repos" variant="contained" className="content6-btn">Découvrir le métier</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -264,7 +264,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content7-action">
-                            <Button component={Link} to="/projets" variant="contained" className="content7-btn">Voir les projets</Button>
+                            <Button component={Link} to="/rpg-python" variant="contained" className="content7-btn">Voir les projets</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -282,7 +282,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content8-action">
-                            <Button variant="contained" className="content8-btn">Accéder au blog</Button>
+                            <Button component={Link} to="/runner-js" variant="contained" className="content7-btn">Voir les projets</Button>
                         </Box>
                     </Box>
                 </Box>

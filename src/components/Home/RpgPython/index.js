@@ -10,12 +10,12 @@ function RpgPython() {
       
 
     return (
-      <Box className="training">
-        <Box className="training-header">
-          <h1 className="training-title"> La formation Dev-Web </h1>
+      <Box className="RpgPython">
+        <Box className="RpgPython-header">
+          <h1 className="RpgPython-title"> Empire Of Chaos </h1>
     
         </Box>
-        <Box className="training-content">
+        <Box className="RpgPython-content">
         
         </Box>
 

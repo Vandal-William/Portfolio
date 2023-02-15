@@ -10,12 +10,12 @@ function Chatroom() {
       
 
     return (
-      <Box className="calendar">
-        <Box className="calendar-header">
-          <h1 className="calendar-title"> Les sessions de formation </h1>
+      <Box className="Chatroom">
+        <Box className="Chatroom-header">
+          <h1 className="Chatroom-title"> Chatroom </h1>
     
         </Box>
-        <Box className="calendar-content">
+        <Box className="Chatroom-content">
         
         </Box>
 

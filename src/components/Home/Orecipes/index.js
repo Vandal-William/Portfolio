@@ -10,12 +10,12 @@ function Orecipes() {
       
 
   return (
-    <Box className="business">
-      <Box className="business-header">
-        <h1 className="business-title"> Je souhaite devenir développeur web mais... </h1>
+    <Box className="Orecipes">
+      <Box className="Orecipes-header">
+        <h1 className="Orecipes-title"> Orecipes </h1>
   
       </Box>
-      <Box className="business-content">
+      <Box className="Orecipes-content">
       
       </Box>
 

@@ -10,12 +10,12 @@ function BotDiscord() {
       
 
   return (
-    <Box className="portfolios">
-      <Box className="portfolios-header">
-        <h1 className="portfolios-title">Formation + Projets = Portfolio</h1>
+    <Box className="BotDiscord">
+      <Box className="BotDiscord-header">
+        <h1 className="BotDiscord-title">Mangas Quest</h1>
   
       </Box>
-      <Box className="portfolios-content">
+      <Box className="BotDiscord-content">
       
       </Box>
 
