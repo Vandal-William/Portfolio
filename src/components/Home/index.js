@@ -12,12 +12,20 @@ import './style.scss'
 console.log(window.screen.availWidth)
 
 function Home() {
-   
+    
     const dispatch = useDispatch()
     const isOver = useSelector((state) => state.isOver);
     const duration = useSelector((state) => state.duration);
-    // console.log("hauteur :" + window.screen.availHeight)
-    // console.log("longeur :" + window.screen.availWidth)
+    const projects = useSelector((state) => state.projects)
+
+    const handleClickBtn = (e) => {
+        const linkActivate = projects.find((project) => project.link === e.target.pathname)
+        dispatch({
+            type: 'CHANGE_TO_ACTIVE',
+            active: linkActivate.project
+        })
+
+    }
     const scroll = (e) => {
         const gallery = document.querySelector(".gallery");
 
@@ -150,7 +158,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content1-action">
-                            <Button component={Link} to="/beloved" variant="contained" className="content1-btn">En savoir plus</Button>
+                            <Button onClick={handleClickBtn} component={Link} to="/beloved" variant="contained" className="content1-btn">Voir le projet</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -169,7 +177,7 @@ function Home() {
                                 into electronic typesetting, remaining essentially unchanged.
                             </Typography>
                             <Box className="content2-action">
-                                <Button component={Link} to="/todolist" variant="contained" className="content2-btn">Voir le portfolio</Button>
+                                <Button onClick={handleClickBtn} component={Link} to="/todolist" variant="contained" className="content2-btn">Voir le projet</Button>
                             </Box>
                         </Box>
                 </Box>
@@ -187,7 +195,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content3-action">
-                            <Button component={Link} to='/chatroom' variant="contained" className="content3-btn">Me contacter</Button>
+                            <Button onClick={handleClickBtn} component={Link} to='/chatroom' variant="contained" className="content3-btn">Voir le projet</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -207,7 +215,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content4-action">
-                            <Button component={Link} sx={{transition: "3s"}} to="/bot-discord" variant="contained" className="content4-btn">S'inscrire</Button>
+                            <Button onClick={handleClickBtn} component={Link} sx={{transition: "3s"}} to="/bot-discord" variant="contained" className="content4-btn">Voir le projet</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -225,7 +233,7 @@ function Home() {
                         into electronic typesetting, remaining essentially unchanged.
                     </Typography>
                     <Box className="content5-action">
-                        <Button component={Link} to="/orecipes" variant="contained" className="content5-btn">Voir les prochaines sessions</Button>
+                        <Button onClick={handleClickBtn} component={Link} to="/orecipes" variant="contained" className="content5-btn">Voir le projet</Button>
                     </Box>
                 </Box>
             </Box>
@@ -244,7 +252,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content6-action">
-                            <Button component={Link} to="/github-repos" variant="contained" className="content6-btn">Découvrir le métier</Button>
+                            <Button onClick={handleClickBtn} component={Link} to="/github-repos" variant="contained" className="content6-btn">Voir le projet</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -264,7 +272,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content7-action">
-                            <Button component={Link} to="/rpg-python" variant="contained" className="content7-btn">Voir les projets</Button>
+                            <Button onClick={handleClickBtn} component={Link} to="/rpg-python" variant="contained" className="content7-btn">Voir le projet</Button>
                         </Box>
                     </Box>
                 </Box>
@@ -282,7 +290,7 @@ function Home() {
                             into electronic typesetting, remaining essentially unchanged.
                         </Typography>
                         <Box className="content8-action">
-                            <Button component={Link} to="/runner-js" variant="contained" className="content7-btn">Voir les projets</Button>
+                            <Button onClick={handleClickBtn} component={Link} to="/runner-js" variant="contained" className="content7-btn">Voir le projet</Button>
                         </Box>
                     </Box>
                 </Box>

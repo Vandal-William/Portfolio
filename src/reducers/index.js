@@ -1,18 +1,24 @@
-import { duration } from "@mui/material";
-
+import Data from '../data/data.json'
 const initialState = {
+  projects: Data,
+  active: "",
   isOver: true,
-  duration: 10000
+  duration: 10000,
 };
 
 function reducer(state = initialState, action = {}) {
   switch (action.type) {
-    case 'CHANGE_VALUE': // pour ajouter un champ controller
+
+    case 'CHANGE_TO_ACTIVE':
+      return {
+        ...state,
+        active : action.active
+      }; 
+
+    case 'CHANGE_VALUE':
       return {
         ...state,
         [action.key]: action.value,
-        // la notation entre crochet me permet de spécifier
-        // via une expression le nom de la propriété cliblée
       };
 
     case 'MOUSE_OVER':

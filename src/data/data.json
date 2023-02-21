@@ -1,0 +1,63 @@
+[ 
+{ 
+  "id": 0,
+  "project": "Home",
+  "link" : "/",
+  "color": "black"
+},
+{ 
+  "id": 1,
+  "project": "Beloved",
+  "link" : "/beloved",
+  "color": "#90D1E3"
+}, 
+
+{ 
+  "id": 2,
+  "project": "Bot-Discord",
+  "link" : "/bot-discord",
+  "color": "#EEE3AB"
+},
+
+{ 
+  "id": 3,
+  "project": "Chatroom",
+  "link" : "/chatroom",
+  "color": "#89023E"
+},
+
+{ 
+  "id": 4, 
+  "project": "Orecipes",
+  "link" : "/orecipes",
+  "color": "#FFBF81"
+},
+
+{ 
+  "id": 5,
+  "project": "React-Repos",
+  "link" : "/github-repos",
+  "color": "#A1F190"
+},
+
+{ 
+  "id": 6,
+  "project": "Rpg-Python",
+  "link" : "/rpg-python",
+  "color": "#067BC2"
+},
+
+{ 
+  "id": 7, 
+  "project": "Runner-Js",
+  "link" : "/runner-js",
+  "color": "#CFCFEA"
+}, 
+
+{ 
+  "id": 8,
+  "project": "TodoList",
+  "link" : "/todolist",
+  "color": "#D1B1C8"
+}
+]  
