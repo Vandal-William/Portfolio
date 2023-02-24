@@ -41,11 +41,16 @@ function BotDiscord() {
           </video>
 
           <Box className="project-info">
-            <Typography variant="h4"> Titre </Typography>
-            <Typography> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Typography>
+            <Typography variant="h4"> Mangas Quest </Typography>
+            <Typography> Simple bot discord sur le thème des mangas, réalisé au cours de ma formation à Hétic. Mangas Quest vous propose de résoudre des énigmes ou de lire une citation inspirante.</Typography>
             
             <Box className="project-status">
               <Typography > <span className="project-label"> Status :</span> En cour de developpement</Typography>
+              <Box className="project-skills">
+                <Typography > <span className="project-label"> Languages :</span> Python</Typography>
+                <Typography > <span className="project-label"> Framework :</span> Aucun</Typography>
+                <Typography > <span className="project-label"> Autre :</span> API discord</Typography>
+              </Box>
               <Typography > <span className="project-label">L'équipe :</span> </Typography>
               <Box sx={{paddingTop : "15px"}}>
                 <Stack direction="row" spacing={0.5}>

@@ -52,12 +52,5 @@
   "project": "Runner-Js",
   "link" : "/runner-js",
   "color": "#CFCFEA"
-}, 
-
-{ 
-  "id": 8,
-  "project": "TodoList",
-  "link" : "/todolist",
-  "color": "#D1B1C8"
-}
+} 
 ]  

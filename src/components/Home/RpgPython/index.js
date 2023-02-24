@@ -41,24 +41,30 @@ function RpgPython() {
           </video>
 
           <Box className="project-info">
-            <Typography variant="h4"> Titre </Typography>
-            <Typography> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Typography>
+            <Typography variant="h4"> Empire Of Chaos </Typography>
+            <Typography> RPG réalisé au cours de ma formation à Hétic, dans lequel vous incarnez un héros qui doit sauver le monde de la destruction. </Typography>
             
             <Box className="project-status">
               <Typography > <span className="project-label"> Status :</span> En cour de developpement</Typography>
+              <Box className="project-skills">
+                <Typography > <span className="project-label"> Languages :</span> Python</Typography>
+                <Typography > <span className="project-label"> Framework :</span> Aucun</Typography>
+                <Typography > <span className="project-label"> Autre :</span> PySide6, QT Widget </Typography>
+              </Box>
               <Typography > <span className="project-label">L'équipe :</span> </Typography>
               <Box sx={{paddingTop : "15px"}}>
                 <Stack direction="row" spacing={0.5}>
-                  <Avatar alt="Remy Sharp" title="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                  <Avatar alt="Travis Howard" title="Travis Howard" src="/static/images/avatar/2.jpg" />
-                  <Avatar alt="Cindy Baker" title="Cindy Baker" src="/static/images/avatar/3.jpg" />
+                  <Avatar alt="William Vandal" title="William Vandal" src="/static/images/avatar/1.jpg" />
+                  <Avatar alt="Lucas Yalman" title="Lucas Yalman" src="/static/images/avatar/2.jpg" />
+                  <Avatar alt="Mohamed-Ali Yaich" title="Mohamed-Ali Yaich" src="/static/images/avatar/3.jpg" />
+                  <Avatar alt="kengni Théophane" title="kengni Théophane" src="/static/images/avatar/3.jpg" />
                 </Stack>
               </Box>
             </Box>
 
             <Box className="project-links">
-              <a  target="_blank" href="https://github.com/Vandal-William/BELOVED" rel="noreferrer" >Lien GitHub </a>
-              <a target="_blank" href="https://beloved.surge.sh" rel="noreferrer">Lien du site</a>
+              <a  target="_blank" href="https://github.com/Hetic-Project/Empire-Of-Chaos" rel="noreferrer" >Lien GitHub </a>
+              <a target="_blank" href="#" rel="noreferrer"> Lien de téléchargement </a>
             </Box>
 
           </Box>

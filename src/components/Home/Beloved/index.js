@@ -42,15 +42,24 @@ function Beloved() {
           </video>
 
           <Box className="project-info">
-            <Typography variant="h4"> Titre </Typography>
-            <Typography> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Typography>
+            <Typography variant="h4"> La marketplace NFT </Typography>
+            <Typography> Beloved a été conçu au cours de mes premières semaines de formation a Hétic, elle repose sur le concept de fleurs NFC qui fanent dans le temps. Des œuvres d'art à réaliser par des artistes à destination des couples. </Typography>
             
             <Box className="project-status">
               <Typography > <span className="project-label"> Status :</span> en cour de developpement</Typography>
+              <Box className="project-skills">
+                <Typography > <span className="project-label"> Languages :</span> HTML, CSS, JavaScript</Typography>
+                <Typography > <span className="project-label"> Framework :</span> React</Typography>
+                <Typography > <span className="project-label"> Autre :</span> Redux, MUI</Typography>
+              </Box>
               <Typography > <span className="project-label">L'équipe :</span> </Typography>
               <Box sx={{paddingTop : "15px"}}>
                 <Stack direction="row" spacing={0.5}>
                   <Avatar alt="Vandal William" title="Vandal William" src="/static/images/avatar/1.jpg" />
+                  <Avatar alt="Lucas Yalman" title="Lucas Yalman" src="/static/images/avatar/1.jpg" />
+                  <Avatar alt="Mohamed-Ali Yaich" title="Mohamed-Ali Yaich" src="/static/images/avatar/1.jpg" />
+                  <Avatar alt="kengni Théophane" title="kengni Théophane" src="/static/images/avatar/1.jpg" />
+                  <Avatar alt="jiek ruan" title="jiek ruan" src="/static/images/avatar/1.jpg" />
                 </Stack>
               </Box>
             </Box>
