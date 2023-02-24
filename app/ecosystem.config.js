@@ -9,7 +9,7 @@ module.exports = {
     production : {
       user : 'ubuntu',
       host : '51.91.251.65',
-      ref  : 'origin/main',
+      ref  : 'origin/master',
       repo : 'git@github.com:Vandal-William/Portfolio.git',
       path : '/home/ubuntu/Portfolio',
       'pre-deploy-local': '',
