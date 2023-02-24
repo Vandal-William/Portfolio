@@ -2,6 +2,7 @@ module.exports = {
   apps : [{
     name: 'portfolio',
     script: 'index.js',
+    autorestart: true,
     watch: '.'
   }],
 
