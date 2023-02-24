@@ -2,7 +2,7 @@ const express = require('express');
 const https = require('https'); // pour prendre en charge le https
 const fs = require('fs');
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 80;
 const app = express();
 
 const options = {
