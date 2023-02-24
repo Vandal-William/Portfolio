@@ -1,7 +1,14 @@
 const express = require('express');
+const https = require('https'); // pour prendre en charge le https
+const fs = require('fs');
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 8080;
 const app = express();
+
+const options = {
+    key: fs.readFileSync('./key.pem'),
+    cert: fs.readFileSync('./cert.pem')
+  };
 
 // due a un probleme de mineType qui bloquais l'accés au css et au js, j'ai du aller
 // dans le html et ajouter dans la balise link {type="text/css"}  et dans la balise scripte  {type="text/javascript"}
@@ -18,7 +25,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + "/build/index.html");
   });
 
-   
-app.listen(PORT, () => {
+// Cette configuration indique à Express de démarrer le serveur en utilisant HTTPS, et de spécifier le certificat et la clé à utiliser pour HTTPS.  
+https.createServer(options, app).listen(PORT, () => {
     console.log(`API running on http://localhost:${PORT}`);
 })
