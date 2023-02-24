@@ -1,6 +1,6 @@
 const express = require('express');
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 8080;
 const app = express();
 
 // due a un probleme de mineType qui bloquais l'accés au css et au js, j'ai du aller
