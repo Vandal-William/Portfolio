@@ -64,7 +64,7 @@ function RpgPython() {
 
             <Box className="project-links">
               <a  target="_blank" href="https://github.com/Hetic-Project/Empire-Of-Chaos" rel="noreferrer" >Lien GitHub </a>
-              <a target="_blank" href="#" rel="noreferrer"> Lien de téléchargement </a>
+              <p> Lien de téléchargement </p>
             </Box>
 
           </Box>

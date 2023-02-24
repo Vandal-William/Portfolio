@@ -60,7 +60,7 @@ function Chatroom() {
 
           <Box className="project-links">
             <a  target="_blank" href="https://github.com/Vandal-William/Chatroom-V2" rel="noreferrer" >Lien GitHub </a>
-            <a target="_blank" href="#" rel="noreferrer">Lien du site</a>
+            <p>Lien du site</p>
           </Box>
 
         </Box>
