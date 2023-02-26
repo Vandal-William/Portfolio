@@ -60,7 +60,7 @@ function Orecipes() {
           </Box>
 
           <Box className="project-links">
-            <a  target="_blank" href="https://github.com/Vandal-William/Orecipes" rel="noreferrer" >Lien GitHub </a>
+            <a  target="_blank" href="https://github.com/Vandal-William/Orecipes-serveur" rel="noreferrer" >Lien GitHub </a>
             <a target="_blank" href="http://projets-portfolio.ovh:3011" rel="noreferrer">Lien du site</a>
           </Box>
 
