@@ -9,7 +9,7 @@ module.exports = {
 
   deploy : {
     production : {
-      user : process.env.USER,
+      user : process.env.VPS_USER,
       host : process.env.HOST,
       ref  : process.env.REF,
       repo : process.env.REPO,
