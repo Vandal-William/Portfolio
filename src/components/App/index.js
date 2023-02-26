@@ -9,7 +9,6 @@ import theme from '../../selectors/Theme'
 import Home from '../Home'
 import Beloved from '../Home/Beloved'
 import BotDiscord from '../Home/BotDiscord'
-import Chatroom from '../Home/Chatroom'
 import Orecipes from '../Home/Orecipes'
 import ReactGithub from '../Home/ReactGithub'
 import RpgPython from '../Home/RpgPython'
@@ -23,7 +22,6 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/beloved' element={<Beloved/>}/>
       <Route path='/bot-discord' element={<BotDiscord/>}/>
-      <Route path='/chatroom' element={<Chatroom/>}/>
       <Route path='/orecipes' element={<Orecipes/>}/>
       <Route path='/github-repos' element={<ReactGithub/>}/>
       <Route path='/rpg-python' element={<RpgPython/>}/>

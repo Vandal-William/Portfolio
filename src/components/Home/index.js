@@ -75,7 +75,6 @@ function Home() {
 
             <Link onMouseOver={handleOver}  onMouseOut={handleOut} onClick={handleClick} to="/beloved" className="beloved">Beloved</Link>
             <Link onMouseOver={handleOver}  onMouseOut={handleOut} onClick={handleClick} to="/bot-discord" className="bot-discord">Bot Discord</Link>
-            <Link onMouseOver={handleOver}  onMouseOut={handleOut} onClick={handleClick} to="/chatroom" className="chatroom">Chatroom</Link>
             <Link onMouseOver={handleOver}  onMouseOut={handleOut} onClick={handleClick} to="/orecipes" className="orecipes">Orecipes</Link>
             <Link onMouseOver={handleOver}  onMouseOut={handleOut} onClick={handleClick} to="/github-repos" className="github-repos">Github repos</Link>
             <Link onMouseOver={handleOver}  onMouseOut={handleOut} onClick={handleClick} to="/rpg-python " className="rpg-python">RPG Python</Link>

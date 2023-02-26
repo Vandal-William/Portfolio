@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5440588f.css",
-    "main.js": "/static/js/main.5dba52ca.js",
+    "main.css": "/static/css/main.4a31fc4c.css",
+    "main.js": "/static/js/main.718c6e33.js",
     "static/media/Beloved.webm": "/static/media/Beloved.beb7eaecc9f83893117d.webm",
     "static/media/Orecioes.webm": "/static/media/Orecioes.a3f6076b4784e9669d1d.webm",
     "static/media/ReactGitHub.webm": "/static/media/ReactGitHub.0a0f60fad8756361f492.webm",
@@ -9,7 +9,6 @@
     "static/media/EmpireOfChaos.webm": "/static/media/EmpireOfChaos.b732c68ea111ad13a048.webm",
     "static/media/Bot-Discord.webm": "/static/media/Bot-Discord.8f4b1007ea7cd8c4f5d2.webm",
     "static/media/planette.jpg": "/static/media/planette.5511ffe71a2d629cb4ea.jpg",
-    "static/media/Chatroom.webm": "/static/media/Chatroom.4015c1f348e0248008d9.webm",
     "static/media/roboto-all-500-normal.woff": "/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -43,11 +42,11 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/index.html",
-    "main.5440588f.css.map": "/static/css/main.5440588f.css.map",
-    "main.5dba52ca.js.map": "/static/js/main.5dba52ca.js.map"
+    "main.4a31fc4c.css.map": "/static/css/main.4a31fc4c.css.map",
+    "main.718c6e33.js.map": "/static/js/main.718c6e33.js.map"
   },
   "entrypoints": [
-    "static/css/main.5440588f.css",
-    "static/js/main.5dba52ca.js"
+    "static/css/main.4a31fc4c.css",
+    "static/js/main.718c6e33.js"
   ]
 }
