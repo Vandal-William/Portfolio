@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4a31fc4c.css",
-    "main.js": "/static/js/main.718c6e33.js",
+    "main.js": "/static/js/main.a1d57206.js",
     "static/media/Beloved.webm": "/static/media/Beloved.beb7eaecc9f83893117d.webm",
     "static/media/Orecioes.webm": "/static/media/Orecioes.a3f6076b4784e9669d1d.webm",
     "static/media/ReactGitHub.webm": "/static/media/ReactGitHub.0a0f60fad8756361f492.webm",
@@ -43,10 +43,10 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/index.html",
     "main.4a31fc4c.css.map": "/static/css/main.4a31fc4c.css.map",
-    "main.718c6e33.js.map": "/static/js/main.718c6e33.js.map"
+    "main.a1d57206.js.map": "/static/js/main.a1d57206.js.map"
   },
   "entrypoints": [
     "static/css/main.4a31fc4c.css",
-    "static/js/main.718c6e33.js"
+    "static/js/main.a1d57206.js"
   ]
 }
