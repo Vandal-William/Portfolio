@@ -11,9 +11,9 @@ module.exports = {
     production : {
       user : process.env.VPS_USER,
       host : process.env.HOST,
-      ref  : process.env.REF,
-      repo : process.env.REPO,
-      path : process.env.PATH,
+      ref  : process.env.GIT_REF,
+      repo : process.env.GIT_REPO,
+      path : process.env.VPS_PATH,
       'pre-deploy-local': '',
       'post-deploy' : 'pm2 startOrRestart ecosystem.config.js',
       'pre-setup': ''
