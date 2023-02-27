@@ -1,4 +1,4 @@
-// == Import
+// == Imports
 
 import { Box, Container, Typography } from "@mui/material";
 import video from '../../../videos/Orecioes.webm'
